@@ -32,20 +32,7 @@ docs/   발표자료, 완료보고서
 - **U-type**: LUI, AUIPC
 - **Jump**: JAL, JALR
 
-## 시뮬레이션
-
-`sim/tb_rv32i.sv`가 `top_rv32i_soc`을 인스턴스화합니다. clk 10ns 주기로 2클럭 동안 리셋 후 1000클럭 동안 실행합니다.
-
-```
-clk = 0, rst = 1
-2 negedge 대기
-rst = 0
-1000 negedge 동안 실행 후 $stop
-```
-
-`TEST_SIMULATION` 매크로를 정의하면 `instruction_mem`/`register_file`에 내장된 테스트용 초기값이 함께 로드됩니다.
-
-## 문서
+## 상세 내용
 
 - [발표자료](docs/발표자료.pdf)
 - [완료보고서](docs/완료보고서.pdf) — 트러블슈팅 내용 포함
