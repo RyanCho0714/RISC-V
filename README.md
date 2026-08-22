@@ -7,7 +7,7 @@ RISC-V RV32I 명령어 집합을 구현한 싱글 사이클 CPU/SoC. SystemVeril
 ```
 src/    RTL 소스
 sim/    테스트벤치
-docs/   발표자료, 완료보고서, 트러블슈팅
+docs/   발표자료, 완료보고서
 ```
 
 ### src/
@@ -48,8 +48,7 @@ rst = 0
 ## 문서
 
 - [발표자료](docs/발표자료.pdf)
-- [완료보고서](docs/완료보고서.pdf)
-- [트러블슈팅](TROUBLESHOOTING.md) — Vivado 합성 시 multi-dimensional packed array 관련 이슈 해결 과정
+- [완료보고서](docs/완료보고서.pdf) — 트러블슈팅 내용 포함
 
 ## 참고자료 (레포 미포함)
 
